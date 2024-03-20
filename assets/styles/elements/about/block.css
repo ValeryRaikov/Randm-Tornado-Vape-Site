@@ -1,0 +1,37 @@
+.choices .block {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    background: rgb(61,7,69);
+    background: linear-gradient(111deg, rgba(61,7,69,1) 0%, rgba(98,0,112,0.8576680672268908) 75%);
+    color: #fff;
+    width: 60%;
+    height: auto;
+    border: 2px solid #000;
+    border-radius: 1em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.5) inset;
+    text-shadow: 0 0 0.5em black, 0 0 1em black;
+}
+
+.choices .block:hover {
+    background: none;
+    background-color: #FCE3FB;
+    color: #000;
+    text-shadow: none;
+    transition: all 0.3s ease-in;
+}
+
+.block .title {
+    font-size: 3em;
+    padding: 1em;
+}
+
+.block img {
+    width: 300px;
+    height: 200px;
+    margin: 1em;
+    border-radius: 1em;
+    border: 1px solid #000;
+}

@@ -1,0 +1,13 @@
+@import url("../base/reset.css");
+@import url("../base/typography.css");
+
+@import url("../components/site-header.css");
+@import url("../components/site-main.css");
+
+@import url("../elements/products/in-stock.css");
+
+@import url("../base/responsive-products.css");
+
+.site-main > h2 {
+    margin: 0 auto;
+}

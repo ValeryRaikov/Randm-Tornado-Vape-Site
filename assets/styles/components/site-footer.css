@@ -1,0 +1,42 @@
+.site-footer .more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    padding: 2em 0;
+}
+
+.link-with {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 0.3em;
+}
+
+.link-with h4 {
+    padding: 0.5em;
+    text-align: center;
+    background-color: #2b2b2b;
+    color: #fff;
+}
+
+.link-with ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none outside;
+}
+
+.link-with a {
+    font-size: 3em;
+}
+
+.link-with .first {
+    color: blue;
+}
+
+.link-with .last {
+    color: red;
+}
+
+.link-with p {
+    padding: 0 0.5em 0.3em 0.5em;
+}

@@ -1,0 +1,60 @@
+@media screen and (max-width: 500px) {
+    html {
+        font: 12px/1.5 Arial, sans-serif;
+    }
+
+    .site-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .site-title {
+        text-align: center;
+    }
+
+    .site-nav-bar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5em;
+        margin: 2em;
+    }
+
+    .site-nav-bar ul li a {
+        display: inline-block;
+        text-align: center;
+        min-width: 7em;
+    }
+
+    .site-poster {
+        min-width: 100%;
+    }
+
+    .site-aside {
+        flex-basis: 100%;
+        margin: 0 auto;
+    }
+    
+    .site-aside ul {
+        justify-content: center;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .align-right {
+        display: none;
+    }
+
+    .gallery {
+        display: block;
+        padding: 0;
+    }
+
+    .gallery img {
+        min-width: 95%;
+        margin: 1em auto;
+    }
+}

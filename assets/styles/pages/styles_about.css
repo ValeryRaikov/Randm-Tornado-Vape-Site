@@ -1,0 +1,13 @@
+@import url("../base/reset.css");
+@import url("../base/typography.css");
+
+@import url("../components/site-header.css");
+@import url("../elements/about/choices.css");
+@import url("../elements/about/block.css");
+@import url("../elements/about/hidden.css");
+
+@import url("../base/responsive-about.css");
+
+.site-main h2 {
+    text-align: center;
+}

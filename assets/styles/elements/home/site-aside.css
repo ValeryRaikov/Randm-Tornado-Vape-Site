@@ -1,0 +1,14 @@
+.site-aside {
+    flex: 0 0 27.5%;
+    margin: 0 auto;
+}
+
+.site-aside ul {
+    margin-top: 0.5em;
+    margin-left: 2em;
+}
+
+.site-aside ul li {
+    font-size: 1.2em;
+    padding: 0.1em 0;
+}

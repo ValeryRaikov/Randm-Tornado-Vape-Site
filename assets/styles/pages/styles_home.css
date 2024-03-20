@@ -1,0 +1,13 @@
+@import url("../base/reset.css");
+@import url("../base/typography.css");
+
+@import url("../components/site-header.css");
+@import url("../components/site-main.css");
+@import url("../components/site-footer.css");
+
+@import url("../elements/home/site-poster.css");
+@import url("../elements/home/site-aside.css");
+@import url("../elements/home/article.css");
+@import url("../elements/home/galery.css");
+
+@import url("../base/responsive-home.css");

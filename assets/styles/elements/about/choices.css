@@ -1,0 +1,9 @@
+.site-main .choices {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    padding-bottom: 2em;
+}

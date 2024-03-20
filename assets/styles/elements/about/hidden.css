@@ -1,0 +1,36 @@
+.hidden {
+    display: none;
+    width: 60%;
+    border: 2px solid #000;
+    border-radius: 1em;
+    background-color: #FCE3FB;
+    color: #000;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.5) inset;
+}
+
+.hidden p {
+    padding: 1em;
+    font-size: 1.2em;
+    text-indent: 2em;
+}
+
+.hidden img {
+    width: 75%;
+    height: auto;
+    padding: 0;
+    margin: 2em auto;
+    border: 2px solid #000;
+    border-radius: 1em;
+}
+
+.hidden img:hover{
+   transform: scale(1.5);
+   transition: all 0.5s;
+   cursor: zoom-in;
+}
+
+.hidden .align-center {
+    text-align: center;
+    font-size: 1.5em;
+    font-style: italic;
+}

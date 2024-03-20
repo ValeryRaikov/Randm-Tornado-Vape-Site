@@ -1,0 +1,14 @@
+.site-poster {
+    flex: 0 0 67.5%;
+}
+
+.site-poster img {
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.5);
+    border-radius: 0.3em;
+    filter: brightness(80%);
+}
+
+.site-poster img:hover {
+    filter: brightness(100%);
+    transition: all 0.3s ease;
+}

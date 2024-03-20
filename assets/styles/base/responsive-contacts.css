@@ -1,0 +1,32 @@
+@media screen and (max-width: 500px) {
+    html {
+        font: 12px/1.5 Arial, sans-serif;
+    }
+
+    .site-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .site-title {
+        text-align: center;
+    }
+
+    .site-nav-bar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5em;
+        margin: 2em;
+    }
+
+    .site-nav-bar ul li a {
+        display: inline-block;
+        text-align: center;
+        min-width: 7em;
+    }
+
+    .site-footer .more {
+        transform: scale(1.2);
+    }
+}

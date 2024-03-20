@@ -1,0 +1,40 @@
+@media screen and (max-width: 500px) {
+    html {
+        font: 12px/1.5 Arial, sans-serif;
+    }
+
+    .site-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .site-title {
+        text-align: center;
+    }
+
+    .site-nav-bar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5em;
+        margin: 2em;
+    }
+
+    .site-nav-bar ul li a {
+        display: inline-block;
+        text-align: center;
+        min-width: 7em;
+    }
+
+    .in-stock {
+        gap: 3em;
+    }
+
+    .in-stock .card {
+        max-width: 75%;
+    }
+
+    .in-stock .card:last-of-type {
+        margin-bottom: 3em;
+    }
+}
