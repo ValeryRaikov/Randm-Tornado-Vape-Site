@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-# Randm-Tornado-Vape-Site
-=======
-# Randm-Tornado-Vapes-Site
->>>>>>> f391075d66e4f4e4c4be0fc96acdd992800c3fb5
+This is a Jekyll static website created to serve as a main source of information and advertisment for my friends vapes they sell. Site should be properly displayed on phone devices as well as laptops. Visit to see it. 
